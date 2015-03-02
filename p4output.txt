@@ -1,0 +1,13 @@
+2 EMAIL sandesh1491@gmail.com is a Valid email address
+2 EMAIL surya.jagadeeshtb@gmail.com is a Valid email address
+2 EMAIL suhastj@gmail.com is a Valid email address
+2 EMAIL champa.comis an Invalid email address
+2 EMAIL supriya@gmail.com is a Valid email address
+2 EMAIL rtuy-uj.comis an Invalid email address
+==============================================
+2 PHON 2012089396 ia a valid number
+2 PHON 9448045179 ia a valid number
+2 PHON 8126064667 ia a valid number
+2 PHON 6565656565625 is an invalid phone number
+2 PHON 5556669991 ia a valid number
+2 PHON ddfa0124562 is an invalid phone number
