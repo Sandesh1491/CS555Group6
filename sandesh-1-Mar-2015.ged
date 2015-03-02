@@ -1,0 +1,216 @@
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 1 MAR 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Sandesh Jagadeesh
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Sandesh /Jagadeesh/
+2 GIVN Sandesh
+2 SURN Jagadeesh
+2 _MARNM Jagadeesh
+1 SEX M
+1 BIRT
+2 DATE 14 JAN 1991
+1 RESI
+2 PHON 2012089396
+2 EMAIL sandesh1491@gmail.com
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Jagadeesh /Basavaraju/
+2 GIVN Jagadeesh
+2 SURN Basavaraju
+2 _MARNM Basavaraju
+1 SEX M
+1 BIRT
+2 DATE 13 MAY 1960
+1 RESI
+2 PHON 9448045179
+2 EMAIL surya.jagadeeshtb@gmail.com
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME Kusuma /Jagadeesh/
+2 GIVN Kusuma
+2 SURN Jagadeesh
+2 _MARNM Jagadeesh
+1 SEX F
+1 BIRT
+2 DATE 19 FEB 1963
+1 FAMS @F1@
+0 @I4@ INDI
+1 NAME Suhas /Jagadeesh/
+2 GIVN Suhas
+2 SURN Jagadeesh
+2 _MARNM Jagadeesh
+1 SEX M
+1 BIRT
+2 DATE 4 DEC 1986
+1 RESI
+2 PHON 8126064667
+2 EMAIL suhastj@gmail.com
+1 FAMC @F1@
+0 @I5@ INDI
+1 NAME Basavaraju /Jaipur/
+2 GIVN Basavaraju
+2 SURN Jaipur
+2 _MARNM Jaipur
+1 SEX M
+1 BIRT
+2 DATE 3 AUG 1940
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Shanthamma /Basavaraju/
+2 GIVN Shanthamma
+2 SURN Basavaraju
+2 _MARNM Basavaraju
+1 SEX F
+1 BIRT
+2 DATE 9 JUN 1945
+1 FAMS @F2@
+1 FAMC @F3@
+0 @I7@ INDI
+1 NAME Sathish /Basavaraju/
+2 GIVN Sathish
+2 SURN Basavaraju
+2 _MARNM Basavaraju
+1 SEX M
+1 BIRT
+2 DATE 10 AUG 1962
+1 FAMS @F4@
+1 FAMC @F2@
+0 @I8@ INDI
+1 NAME Champa /Sathish/
+2 GIVN Champa
+2 SURN Sathish
+2 _MARNM Sathish
+1 SEX F
+1 BIRT
+2 DATE 4 OCT 1963
+1 RESI
+2 PHON 6565656565625
+2 EMAIL champa.com
+1 FAMS @F4@
+0 @I9@ INDI
+1 NAME Dileep /Basavaraju/
+2 GIVN Dileep
+2 SURN Basavaraju
+2 _MARNM Sathish
+1 SEX M
+1 BIRT
+2 DATE 25 MAR 1993
+1 FAMC @F4@
+0 @I10@ INDI
+1 NAME Supriya /Basavaraju/
+2 GIVN Supriya
+2 SURN Basavaraju
+2 _MARNM Sathish
+1 SEX F
+1 BIRT
+2 DATE 29 SEP 1999
+1 RESI
+2 PHON 5556669991
+2 EMAIL supriya@gmail.com
+1 FAMC @F4@
+0 @I11@ INDI
+1 NAME
+1 SEX M
+1 FAMS @F3@
+0 @I12@ INDI
+1 NAME
+1 SEX F
+1 FAMS @F3@
+0 @I13@ INDI
+1 NAME Venkatapa /Kolapur/
+2 GIVN Venkatapa
+2 SURN Kolapur
+2 _MARNM Kolapur
+1 SEX M
+1 BIRT
+2 DATE 4 JUL 1942
+1 DEAT Y
+2 DATE 5 MAR 1965
+1 FAMS @F5@
+1 FAMC @F3@
+0 @I14@ INDI
+1 NAME Kalamma /Venkatapa/
+2 GIVN Kalamma
+2 SURN Venkatapa
+2 _MARNM Venkatapa
+1 SEX F
+1 BIRT
+2 DATE 1 APR 1950
+1 FAMS @F5@
+1 FAMS @F6@
+0 @I15@ INDI
+1 NAME Surya /Lone/
+2 GIVN Surya
+2 SURN Lone
+2 _MARNM Lone
+1 SEX M
+1 BIRT
+2 DATE 4 APR 1945
+1 FAMS @F6@
+0 @I16@ INDI
+1 NAME Tippaya /Venkatapa/
+2 GIVN Tippaya
+2 SURN Venkatapa
+2 _MARNM Lone
+1 SEX M
+1 BIRT
+2 DATE 10 JUL 1965
+1 RESI
+2 PHON ddfa0124562
+2 EMAIL rtuy-uj.com
+1 FAMC @F6@
+0 @I17@ INDI
+1 NAME Dodappa /Venkatapa/
+2 GIVN Dodappa
+2 SURN Venkatapa
+2 _MARNM Venkatapa
+1 SEX M
+1 BIRT
+2 DATE 1 MAR 1968
+1 FAMC @F5@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+1 CHIL @I4@
+1 _CURRENT Y
+0 @F2@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I2@
+1 CHIL @I7@
+1 _CURRENT Y
+0 @F3@ FAM
+1 HUSB @I11@
+1 WIFE @I12@
+1 CHIL @I6@
+1 CHIL @I13@
+1 _CURRENT Y
+0 @F4@ FAM
+1 HUSB @I7@
+1 WIFE @I8@
+1 CHIL @I9@
+1 CHIL @I10@
+1 _CURRENT Y
+0 @F5@ FAM
+1 HUSB @I13@
+1 WIFE @I14@
+1 CHIL @I17@
+1 _CURRENT N
+0 @F6@ FAM
+1 HUSB @I15@
+1 WIFE @I14@
+1 CHIL @I16@
+1 _CURRENT Y
+0 TRLR
