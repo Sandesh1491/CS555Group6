@@ -1,0 +1,73 @@
+invalid data of birth before death
+========================================
+Death can't happen before birth for Venkatapa Kolapur
+Death can't happen before birth for Donna Lone
+invalid data of death before marriage
+========================================
+Death can't happen before marriage for Venkatapa Kolapur
+Death can't happen before marriage for Donna Lone
+Death can't happen before marriage for Lakshmi Venkatapa
+fiding age of members.
+========================================
+age of Sandesh Jagadeesh is 24
+age of Jagadeesh Basavaraju is 55
+age of Kusuma Jagadeesh is 52
+age of Suhas Jagadeesh is 29
+age of Basavaraju Jaipur is 75
+age of Shanthamma Basavaraju is 70
+age of Sathish Basavaraju is 53
+age of Champa Sathish is 52
+age of Dileep Basavaraju is 22
+age of Supriya Basavaraju is 16
+age of John null is 95
+age of Merry null is 385
+age of Venkatapa Kolapur is 73
+age of Kalamma Venkatapa is 65
+age of Surya Lone is 70
+age of Tippaya Venkatapa is 50
+age of Dodappa Venkatapa is 47
+age of Donna Lone is 35
+age of Lakshmi Venkatapa is 50
+age of Sundar Lone is 16
+age of Hooper Lone is 15
+invalid data of death before birth
+========================================
+Birth cannot happen before death for Lakshmi Venkatapa
+finding person's birth place.
+========================================
+birth place for Sandesh Jagadeeshistumkur
+birth place for Suhas Jagadeeshistumkur
+
+invalid data of marriage before birth
+========================================
+
+Marriage can't happen before birth for Donna Lone
+Marriage can't happen before birth for Sundar Lone
+
+fetching given name of every member in family
+========================================
+Sandesh
+Jagadeesh
+Kusuma
+Suhas
+Basavaraju
+Shanthamma
+Sathish
+Champa
+Dileep
+Supriya
+John
+Merry
+Venkatapa
+Kalamma
+Surya
+Tippaya
+Dodappa
+Donna
+Lakshmi
+Sundar
+Hooper
+
+counting number of member in family
+========================================
+Total number of Individual are : 21
