@@ -1,0 +1,49 @@
+
+
+Sprint 3 Naisargee
+divorce can not take place before marraige
+========================================
+Divorce cannot happen before marraige for Jackson Venkatapa
+
+========================================
+Divorce cannot happen before birth Donna Lone
+
+========================================
+invalid data as death year is after 150 year of birth year which is practically not possible like John Harry 170
+
+Sprint 3 sandesh
+people yet not born mean invalid birth year
+========================================
+Person is not yet born Abby Jackson
+Person is not yet born Lucas Jackson
+Person is not yet born Sable Lucas
+Person is not yet born Sachi Venkatapa
+Person is not yet born Noah Kiddi
+people who took divorse after marraige
+========================================
+Divorce after Wedding for Donna Lone
+Divorce after Wedding for Sundar Lone
+Divorce after Wedding for Sable Lucas
+Divorce after Wedding for Noah Kiddi
+people whos divorse date is after death which is not relevant
+========================================
+Divorce cannot happen after death Noah Kiddi
+
+Sprint 3 rakesh
+
+counting number of families in tree
+========================================
+Total number of families are :12
+
+counting number of dead people in family tree
+========================================
+number of dead people are : 6
+
+Finding divorsed dates
+========================================
+
+The Divorce Dates are: 4 OCT 1940
+The Divorce Dates are: 3 FEB 1985
+The Divorce Dates are: 9 AUG 2000
+The Divorce Dates are: 16 NOV 2044
+The Divorce Dates are: 19 NOV 2056
