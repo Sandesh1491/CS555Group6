@@ -133,6 +133,17 @@ public class readFile extends data
 					  				fami.setWeddingDate(weddingDate);
 			  				}
 			  			}
+			  			else if("DIV".equals(tag)) 
+						{
+							line = br.readLine();
+				    		String[] nextLine = (line.split("\\s+"));
+				    		if(nextLine[1].equals("DATE"))
+				    		{
+				    			String DivorceDate = nextLine[2]+" "+nextLine[3]+" "+nextLine[4];
+				  				fami.setDivorceDate(DivorceDate);
+				  				}
+				    		}
+				  	
 				  	}	
 		      if(level == 2)
 			    {

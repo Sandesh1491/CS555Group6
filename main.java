@@ -6,7 +6,9 @@ public class main{
 	public static void main(String[] args) throws IOException {
  
 		n1 ds = new n1();
+		
 		ds.readFile("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("Sprint 2 Naisargee");
 		System.out.println("invalid data of birth before death");
 		System.out.println("========================================");
 		ds.birthBeforeDeath("/Users/naisargee/Desktop/team6.ged");
@@ -18,10 +20,28 @@ public class main{
 		System.out.println("fiding age of members.");
 		System.out.println("========================================");
 		ds.age("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("Sprint 3 Naisargee ");
+		
+		System.out.println("divorce can not take place before marraige.Invalid data :");
+		System.out.println("========================================");
+		ds.DivorceBeforeMarriage("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
 
+		System.out.println("Before birth one can not get divorced so invalid data:");
+		System.out.println("========================================");
+		ds.divorceBeforeBirth("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
+		System.out.println("death after 150 year of birth");
+		System.out.println("========================================");
+		ds.deathafter150year("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
+		
+	
 		s1 ds1= new s1();
 		ds1.readFile("/Users/naisargee/Desktop/team6.ged");
 		System.out.println("");
+		System.out.println("Sprint 2 sandesh");
 		System.out.println("invalid data of death before birth");
 		System.out.println("========================================");
 		ds1.deathbeforeBirth("/Users/naisargee/Desktop/team6.ged");
@@ -33,8 +53,27 @@ public class main{
 		System.out.println("invalid data of marriage before birth");
 		System.out.println("========================================");
 		ds1.MarriageBeforeBirth("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("Sprint 3 sandesh");
+		System.out.println(" ");
+		System.out.println("people yet not born mean invalid birth year");
+		System.out.println("========================================");
+		ds1.unbornpeople("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("people who took divorse after marraige");
+		System.out.println("========================================");
+		ds1.DivorceAfterMarriage("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("people whos divorse date is after death which is not relevant");
+		System.out.println("========================================");
+		ds1.divorceAfterDeath("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		
+		
 		
 		r1 ds2= new r1();
+		System.out.println("Sprint 2 rakesh");
+		//System.out.println(" ");
 		ds2.readFile("/Users/naisargee/Desktop/team6.ged");
 		System.out.println("");
 		System.out.println("fetching given name of every member in family");
@@ -44,5 +83,19 @@ public class main{
 		System.out.println("counting number of member in family");
 		System.out.println("========================================");
 		ds2.indicount("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("Sprint 3 rakesh");
+		System.out.println("");
+		System.out.println("counting number of families in tree");
+		System.out.println("========================================");
+		ds2.famicount("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
+		System.out.println("counting number of dead people in family tree");
+		System.out.println("========================================");
+		ds2.deadpeople("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
+		System.out.println("finding divorsed dates");
+		System.out.println("========================================");
+		ds2.divorcecount("/Users/naisargee/Desktop/team6.ged");
 	}
 }
