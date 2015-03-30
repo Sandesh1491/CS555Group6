@@ -2,11 +2,11 @@ package week7;
 
 public class group_family {
 	 
-	private String identifier;
-	 private String husband;
-	 private String wife;
-	 private String weddingDate;
-	 private String divorceDate;
+	public String identifier;
+	public String husband;
+	public String wife;
+	public String weddingDate;
+	public String divorceDate;
 	
 	public String getIdentifier() {
 	  return identifier;
