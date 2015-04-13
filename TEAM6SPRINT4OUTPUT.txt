@@ -1,0 +1,75 @@
+members who got divorced on leap year:
+========================================
+The Divorce Dates on leap year are: 4 OCT 1940, Tippaya venkatapa
+The Divorce Dates on leap year are: 9 AUG 2000, Jakson Venkatapa
+The Divorce Dates on leap year are: 29 JUN 2044, Lucas Jackson
+The Divorce Dates on leap year are: 19 NOV 2056, Noah kiddi 
+The Divorce Dates on leap year are: 29 JUL 2016, Henrry lone
+
+name and count of widows in family:
+========================================
+The Widows are: Merry
+Husband name who died is: John harry,25 OCT 2090
+The Widows are: kalamma venkatapa
+Husband name who died is: venkatapa koapur,1 JAN 1936
+
+people who share same birth dates:
+========================================
+Individuals with date of birth 1 APR 2013: Matt , Edward
+
+marriage on leap year
+========================================
+The marraige Dates on leap year are: 5 FEB 1960,Basavaraju jaipur
+The marraige Dates on leap year are: 6 APR 1980,Sathish Basavaraju
+The marraige Dates on leap year are: 14 JUN 2020, Jakson Venkatapa 
+
+members who has same death date
+========================================
+Individuals with date of death 1 JUL 2025: Tony , Donald
+
+members who born on leap year :
+========================================
+members who born on leap year: 13 MAY 1960,
+Jagadeesh Basavaraju
+members who born on leap year: 3 AUG 1940,
+Basavaraju Jaipur
+members who born on leap year: 7 MAY 1920,
+John Harry
+members who born on leap year: 1 MAR 1968,
+Dodappa Venkatapa
+members who born on leap year: 5 FEB 1980,
+Donna Lone
+members who born on leap year: 7 APR 2000,
+Hooper Lone
+members who born on leap year: 14 OCT 2020,
+Sable Lucas
+members who born on leap year 29 MAR 2012,
+Henry Lone
+members who born on leap year 29 FEB 2016,
+Tony Lone
+
+finding dead husbands
+========================================
+List of husband who died: John Harry, 25 OCT 2090
+List of husband who died: Venkatapa Kolapur, 1 JAN 1936
+List of husband who died: Noah Kiddi, 25 AUG 2031
+
+finding child who are not adult
+========================================
+The age of Child I10 Supriya Basavaraju is 16
+The age of Child I20 Sundar Lone is 16
+The age of Child I21 Hooper Lone is 15
+The age of Child I22 Jackson Venkatapa is 2
+The age of Child I23 Abby Jackson is -3
+The age of Child I24 Lucas Jackson is -7
+The age of Child I25 Sable Lucas is -5
+The age of Child I26 Sachi Venkatapa is -7
+The age of Child I27 Noah Kiddi is -6
+The age of Child I28 Henry Lone is 3
+The age of Child I29 Ella Lone is 1
+The age of Child I30 Matt null is 2
+The age of Child I31 Edward null is 2
+The age of Child I32 Tony Lone is -1
+The age of Child I33 Donald Lone is -3
+The Total Number of Children less than 18 years who are not aadult are 15
+!
