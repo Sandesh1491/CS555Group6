@@ -49,8 +49,10 @@ public class r1 extends readFile
 	}
 	
 	//Sprint3 UserStory-3
-	public void divorcecount(String file) {
-		for(int i=0; i < families.size(); i++){
+	public void divorcecount(String file) 
+	{
+		for(int i=0; i < families.size(); i++)
+		{
 			 group_family fami = families.get(i);
 			 member indi = members.get(i);
 			 String divorceDate = fami.getDivorceDate();
@@ -63,4 +65,39 @@ public class r1 extends readFile
 			 }
 			}
 	}
+//Sprint 4 userstory-1
+	
+	public void widowercount(String file) {
+		for(int i=0; i < families.size(); i++){
+			 group_family fami = families.get(i);
+			 member indi = members.get(i);
+			 String husband = fami.getHusband();
+			 String deathDate = indi.getDeathDate();
+			 String wife = fami.getWife();
+			 String name = indi.getName();
+			 if( deathDate != null) {
+			 String deathyear[] = deathDate.split(" ");
+			 System.out.println("List of husband who died:"+" "+ fami.getHusband());
+			
+			 }
+			}
+	}
+	
+	//sprint 4 userstory2 rakesh
+	public void printAgeChild(String file)
+	{
+	int ageCount=0;
+	for(int i=0; i < members.size(); i++)
+	{
+		 member indi = members.get(i);
+		 
+		 if(indi.getAge() <= 18)
+		 {	 
+			 ageCount +=1;
+			 System.out.println("The age of Child "+ indi.getIdentifier()+ " " + indi.getGivenName() +" "+ indi.getSurName() + " is " +indi.getAge());}
+		}
+	System.out.println("The Total Number of Children less than 18 years who are not aadult are "+ageCount);System.out.println();
+	}	
+	
+
 }
