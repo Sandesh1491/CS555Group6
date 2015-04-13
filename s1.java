@@ -1,5 +1,8 @@
 package week7;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class s1 extends readFile
 {
 	//Sprint2 userstory1 sandesh
@@ -77,7 +80,8 @@ public class s1 extends readFile
 			 if(x>2015)
 			 {
 			 System.out.println("Person is not yet born " +indi.getGivenName() +" "+ indi.getSurName());			 
-		}}
+		}
+	}
 	}
 	
 	//sprint3 userstory2 sandesh
@@ -106,6 +110,7 @@ public class s1 extends readFile
 	}					
 	}
 	}	
+	
 	//sprint3 userstory3 sandesh
 	public void divorceAfterDeath(String file)
 	{
@@ -132,4 +137,97 @@ public class s1 extends readFile
 		}
 		}
 		}
+	
+	//Sprint4 userstory1 sandesh
+	
+	public void weddingdateleap(String file) throws NumberFormatException
+	{
+	try
+	{
+			for(int j=0;j<families.size();j++)
+			{
+				member indi = members.get(j);
+				group_family fami = families.get(j);	 
+				String weddate = fami.getWeddingDate();
+				
+				if(weddate!=null)
+				{
+			double d =Double.parseDouble( weddate.substring(6));
+		
+			if ((d % 4 == 0 && d % 100 != 0) ||d % 400 == 0)
+			{
+				System.out.println("The marraige Dates on leap year are:" + " "
+						+ fami.getWeddingDate() + ", " + indi.getGivenName()+ " " + indi.getSurName());	
+			}	
+	    }
+	}
+	}
+		catch (NumberFormatException n)
+		{
+			System.out.println("error");
+		}
+	}
+
+	//Sprint 4 userstory 2 sandesh
+
+	public void IndividualSameDday(String file) {
+
+		List<String> date = new ArrayList<String>();
+
+		for (int i = 0; i < members.size(); i++) {
+			if (members.get(i).getDeathDate() != null) {
+				List<String> n1 = new ArrayList<String>();
+				n1.add(members.get(i).getDeathDate());
+				n1.add(members.get(i).getGivenName());
+				if (!date.contains(n1.get(0))) {
+					int flag = 0;
+					for (int j = i + 1; j < members.size(); j++)
+						if (members.get(j).getDeathDate() != null)
+							if (members.get(j).getDeathDate()
+									.equals(n1.get(0))) {
+								n1.add(members.get(j).getGivenName());
+								flag = 1;
+							}
+					if (flag == 1)
+						date.add(members.get(i).getDeathDate());
+
+					if (n1.size() > 2) 
+					{
+						System.out.print("Individuals with date of death "
+								+ n1.get(0) + ":");
+						for (int k = 1; k < n1.size(); k++)
+							System.out.print(" " + n1.get(k));
+						System.out.println();
+					}
+				}
+			}
+		}
+	}
+	public void birthdatedateleap(String file) throws NumberFormatException
+	{
+	try
+	{
+			for(int i=0;i<members.size();i++)
+			{
+				member indi = members.get(i);	 
+				String birthdate = indi.getBirthDate();
+				
+				if(birthdate!=null)
+				{
+			double d =Double.parseDouble( birthdate.substring(6));
+		
+			if (d % 400 == 0)
+			{
+				System.out.println("members who born on leap year " + " "
+						+ indi.getBirthDate() + ", " + indi.getGivenName()+ " " + indi.getSurName());	
+			}	
+	    }
+	
+	}
+	}
+	catch (NumberFormatException n)
+	{
+		System.out.println("error");
+	}
 }
+	}
