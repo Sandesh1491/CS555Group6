@@ -20,6 +20,7 @@ public class member {
 	 private String PLAC;
 	 private String MARNM;
 	 
+	 
 	public String getMARNM() {
 		return MARNM;
 	}

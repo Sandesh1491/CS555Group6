@@ -2,19 +2,19 @@ package week7;
 
 public class group_family {
 	 
-	public String identifier;
+	public String fami_identifier;
 	public String husband;
 	public String wife;
 	public String weddingDate;
 	public String divorceDate;
 	
-	public String getIdentifier() {
-	  return identifier;
-	 }
-	 public void setIdentifier(String identifier) {
-	  this.identifier = identifier;
-	 }
-	 public String getHusband() {
+	 public String getFami_identifier() {
+		return fami_identifier;
+	}
+	public void setFami_identifier(String fami_identifier) {
+		this.fami_identifier = fami_identifier;
+	}
+	public String getHusband() {
 	  return husband;
 	 }
 	 public void setHusband(String husband) {
@@ -34,14 +34,15 @@ public class group_family {
 		{
 			this.weddingDate=weddingDate;
 		}
+	
+	 public String getDivorceDate()
+		{
+			return divorceDate;
+		}
+public void setDivorceDate(String divorceDate)
+	{
+		this.divorceDate=divorceDate;
 		
-public String setDivorceDate(String divorceDate)
-	{
-	this.divorceDate=divorceDate;
-	return divorceDate;
 	}
-	public String getDivorceDate()
-	{
-		return divorceDate;
-	}
+	
 	}

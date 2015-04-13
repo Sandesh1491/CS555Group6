@@ -47,7 +47,7 @@ public class readFile extends data
 						  if(fami!=null)
 						  {
 							  families.add(fami);
-							  fami.setIdentifier(getId(tag));
+							  fami.setFami_identifier(getId(tag));
 							  isIndOrFami=true;
 						  }
 					  } 
