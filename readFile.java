@@ -144,7 +144,23 @@ public class readFile extends data
 				  				}
 				    		}
 				  	
-				  	}	
+			  			else if("_SEPR".equals(tag)) 
+						{
+							line = br.readLine();
+				    		String[] nextLine = (line.split("\\s+"));
+				    		if(nextLine[1].equals("DATE"))
+				    		{
+				    			String seprateDate = nextLine[2]+" "+nextLine[3]+" "+nextLine[4];
+				  				fami.setSeprateDate(seprateDate);
+				  				}
+				    		}
+			  			else if("OCCU".equals(tag)) 
+						{
+							line = br.readLine();
+							individual.setOccupation(values);
+				  	
+				  	
+				  	}}	
 		      if(level == 2)
 			    {
 
@@ -154,10 +170,15 @@ public class readFile extends data
 		  		  }
 		  		
 			    }
-			  }
-		   
-		    
-		  } 
+		      
+		      else if("WWW".equals(tag))
+		  		  {
+		    	  line = br.readLine();
+					
+		  			  individual.setBlog(values);
+		  		  }
+		  		
+		      }}
 		  catch (FileNotFoundException e) 
 		  {
 		   Logger.getLogger(data.class.getName()).log(Level.SEVERE, null, e);

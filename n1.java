@@ -250,4 +250,92 @@ public class n1 extends readFile
 			}
 		}
 	}
+	
+	public void invalid_deathdate(String file)
+	{
+		//System.out.println(members.size());
+		for(int i=0; i < members.size(); i++)
+		{
+			 member indi = members.get(i);
+			 String dYear = indi.getDeathDate();
+			 if(dYear != null)
+			 {
+			 String year[] = dYear.split(" ");
+			 int x = Integer.parseInt(year[2]);
+			 if(x>2015)
+			 System.out.println("Future death date which is invalid " +indi.getGivenName() +" "+ indi.getSurName()+" is in year "+ x);			 
+		}}
+	}
+	
+	public void mafter14ofb(String file)
+	{
+		//System.out.println(members.size());
+		for(int i=0; i < members.size(); i++)
+		{
+			for(int j=0; j < families.size(); j++)
+			{
+			 member indi = members.get(i);
+			 group_family fami=families.get(j);
+			 String bYear = indi.getBirthDate();
+			 String wDate= fami.getWeddingDate();
+			
+			 if(bYear != null && wDate!=null)
+			 {
+				
+			 String b_year[] = bYear.split(" ");
+			 String w_year[] = wDate.split(" ");
+			 int x = Integer.parseInt(b_year[2]);
+			 int y=Integer.parseInt(w_year[2]);
+			 int z=(y-x);
+			 if(z<=14)
+			 System.out.println(" before age 14 got married " +indi.getGivenName() +" "+ indi.getSurName()+"  in year "+ y);			 
+		i+=1;
+		j+=1;
+			 }
+		}
+	}}
+	
+	
+	
+	/*public void CoupleSameMday(String file) 
+	{
+
+		List<String> date = new ArrayList<String>();
+
+		for (int i = 0; i < families.size(); i++) 
+		{
+			List<String> n = new ArrayList<String>();
+			n.add(families.get(i).getWeddingDate());
+			n.add(families.get(i).getHusband());
+			n.add(families.get(i).getWife());
+			if (date != null) 
+			{
+				if (!date.contains(n.get(0))) 
+				{
+					int flag = 0;
+					for (int j = i + 1; j < families.size(); j++) 
+					{
+						System.out.println(n.get(0));
+						if (families.get(j).getWeddingDate().equals(n.get(0))) 
+						{
+							n.add(families.get(j).getHusband());
+							flag = 1;
+					
+						}
+					}
+					if (flag == 1)
+						date.add(families.get(i).getWeddingDate());
+
+					if (n.size() > 2) 
+					{
+						System.out.print("Couple with same marraige date "+ n.get(0) + ":");
+						for (int k = 1; k < n.size(); k++)
+							System.out.print(" " + n.get(k));
+						System.out.println();
+					}
+				}
+			}
+		}
+	}*/
+
 }
