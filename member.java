@@ -19,8 +19,27 @@ public class member {
 	 private String CHIL;
 	 private String PLAC;
 	 private String MARNM;
+	 private String Occupation;
+	 private String blog;
 	 
 	 
+	 
+	public String getBlog() {
+		return blog;
+	}
+
+	public void setBlog(String blog) {
+		this.blog = blog;
+	}
+
+	public String getOccupation() {
+		return Occupation;
+	}
+
+	public void setOccupation(String occupation) {
+		Occupation = occupation;
+	}
+
 	public String getMARNM() {
 		return MARNM;
 	}

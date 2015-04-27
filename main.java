@@ -25,7 +25,7 @@ public class main{
 		
 		System.out.println("divorce can not take place before marraige.Invalid data :");
 		System.out.println("========================================");
-		//ds.DivorceBeforeMarriage("/Users/naisargee/Desktop/team6.ged");
+		ds.DivorceBeforeMarriage("/Users/naisargee/Desktop/team6.ged");
 		System.out.println("");
 
 		System.out.println("Before birth one can not get divorced so invalid data:");
@@ -48,6 +48,24 @@ public class main{
 		System.out.println("people who share same birth dates:");
 		System.out.println("========================================");
 		ds.IndividualSameBday("/Users/naisargee/Desktop/team6.ged");
+		
+		System.out.println("");
+		System.out.println("Invalid death date:");
+		System.out.println("========================================");
+		ds.invalid_deathdate("/Users/naisargee/Desktop/team6.ged");
+		
+
+		System.out.println("");
+		System.out.println("Wedding before 14 year of birth:");
+		System.out.println("========================================");
+		ds.mafter14ofb("/Users/naisargee/Desktop/team6.ged");
+		
+		//System.out.println("");
+		//System.out.println("Couple who share same marraige dates:");
+		//System.out.println("========================================");
+		//ds.CoupleSameMday("/Users/naisargee/Desktop/team6.ged");
+		
+		
 		
 		s1 ds1= new s1();
 		ds1.readFile("/Users/naisargee/Desktop/team6.ged");
@@ -90,6 +108,17 @@ public class main{
 		System.out.println("members who born on leap year :");
 		System.out.println("========================================");
 		ds1.birthdatedateleap("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("unmarried members :");
+		System.out.println("========================================");
+		ds1.unmarried("/Users/naisargee/Desktop/team6.ged");
+		System.out.println(" ");
+		System.out.println("Seprated Couples :");
+		System.out.println("========================================");
+		ds1.SepratedCouple("/Users/naisargee/Desktop/team6.ged");
+		
+		
+		
 		
 		r1 ds2= new r1();
 		System.out.println(" ");
@@ -127,5 +156,15 @@ public class main{
 		System.out.println("finding child who are not adult");
 		System.out.println("========================================");
 		ds2.printAgeChild("/Users/naisargee/Desktop/team6.ged");
+		
+		System.out.println("");
+		System.out.println("finding occupation of person");
+		System.out.println("========================================");
+		ds2.occupationPerson("/Users/naisargee/Desktop/team6.ged");
+		System.out.println("");
+		System.out.println("finding blogs of person");
+		System.out.println("========================================");
+		ds2.blogOfPerson("/Users/naisargee/Desktop/team6.ged");
+		
 	}
 }

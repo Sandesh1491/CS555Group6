@@ -7,8 +7,16 @@ public class group_family {
 	public String wife;
 	public String weddingDate;
 	public String divorceDate;
+	public String seprateDate;
 	
-	 public String getFami_identifier() {
+	
+	 public String getSeprateDate() {
+		return seprateDate;
+	}
+	public void setSeprateDate(String seprateDate) {
+		this.seprateDate = seprateDate;
+	}
+	public String getFami_identifier() {
 		return fami_identifier;
 	}
 	public void setFami_identifier(String fami_identifier) {
