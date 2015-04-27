@@ -230,4 +230,43 @@ public class s1 extends readFile
 		System.out.println("error");
 	}
 }
+	
+	public void unmarried(String file)
+	
+	{
+		for(int i=0; i < families.size(); i++)
+	{
+		 member indi = members.get(i);
+		 group_family fami=families.get(i);
+		 String wDate= fami.getWeddingDate();
+		 if(wDate == null)
+		 {
+		 System.out.println(" " +indi.getGivenName() +" "+ indi.getSurName()+" is unmarried ");			 
+	}}
+}
+	
+public void SepratedCouple(String file)
+	
+	{
+		for(int i=0; i < members.size(); i++)
+		{
+			for(int j=0; j < families.size(); j++)
+					
+		
+	{
+		 member indi = members.get(i);
+		 group_family fami=families.get(j);
+		 String sDate= fami.getSeprateDate();
+		 if(sDate != null)
+		 {
+			 
+		 System.out.println(" " +indi.getGivenName() +" "+ indi.getSurName()+" is Seprated on  "+ fami.getSeprateDate());	
+		 
+		 j+=1;
+	}
+		 i+=1;
+		 }}
+}
+	
+	
 	}
