@@ -97,7 +97,41 @@ public class r1 extends readFile
 			 System.out.println("The age of Child "+ indi.getIdentifier()+ " " + indi.getGivenName() +" "+ indi.getSurName() + " is " +indi.getAge());}
 		}
 	System.out.println("The Total Number of Children less than 18 years who are not aadult are "+ageCount);System.out.println();
-	}	
+	}
 	
+	public void occupationPerson(String file)
+	{
+	
+	for(int i=0; i < members.size(); i++)
+	{
+		 member indi = members.get(i);
+		 String occu= indi.getOccupation();
+		 if(occu != null)
+		 {
+			 
+		 System.out.println(" " +indi.getGivenName() +" "+ indi.getSurName()+" 's occupation is  "+ indi.getOccupation());	
+		
+	
+	}}
+}
+	
+	public void blogOfPerson(String file)
+	{
+	
+	for(int i=0; i < members.size(); i++)
+	{
+		 member indi = members.get(i);
+		 String blog= indi.getBlog();
+		 
+		 
+		 if(blog != null)
+		 {
+			 
+		 System.out.println(" " +indi.getGivenName() +" "+ indi.getSurName()+" 's blog page is  "+ indi.getBlog());	
+		
+	
+	}}
+}
+
 
 }
